@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSolution.Module", "WinSolution.Module\WinSolution.Module.csproj", "{89A17882-B12F-4840-9E8E-1C74DAD071E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSolution.Win", "WinSolution.Win\WinSolution.Win.csproj", "{E752673E-D800-4EA7-9F54-50DB1F426831}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E1703.EasyTests", "E1703.EasyTests", "{A8AADE33-BC64-47D0-A8C4-CBDA40337DB0}"
+	ProjectSection(SolutionItems) = preProject
+		E1703.EasyTests\Config.xml = E1703.EasyTests\Config.xml
+		E1703.EasyTests\E1703.ets = E1703.EasyTests\E1703.ets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{98C52919-6E88-4E97-B7C1-CD8A7FA52F13}"
+	ProjectSection(SolutionItems) = preProject
+		E1703.EasyTests\Images\E1703_DetailView_edited.png = E1703.EasyTests\Images\E1703_DetailView_edited.png
+		E1703.EasyTests\Images\E1703_DetailView_saved.png = E1703.EasyTests\Images\E1703_DetailView_saved.png
+		E1703.EasyTests\Images\E1703_ListView_edited.png = E1703.EasyTests\Images\E1703_ListView_edited.png
+		E1703.EasyTests\Images\E1703_ListView_saved.png = E1703.EasyTests\Images\E1703_ListView_saved.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A17882-B12F-4840-9E8E-1C74DAD071E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A17882-B12F-4840-9E8E-1C74DAD071E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A17882-B12F-4840-9E8E-1C74DAD071E2}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{89A17882-B12F-4840-9E8E-1C74DAD071E2}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{89A17882-B12F-4840-9E8E-1C74DAD071E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A17882-B12F-4840-9E8E-1C74DAD071E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E752673E-D800-4EA7-9F54-50DB1F426831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E752673E-D800-4EA7-9F54-50DB1F426831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E752673E-D800-4EA7-9F54-50DB1F426831}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{E752673E-D800-4EA7-9F54-50DB1F426831}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{E752673E-D800-4EA7-9F54-50DB1F426831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E752673E-D800-4EA7-9F54-50DB1F426831}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98C52919-6E88-4E97-B7C1-CD8A7FA52F13} = {A8AADE33-BC64-47D0-A8C4-CBDA40337DB0}
+	EndGlobalSection
+EndGlobal
