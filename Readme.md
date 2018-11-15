@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[DirtyTitleWindowController.cs](./CS/WinSolution.Module/DirtyTitleWindowController.cs) (VB: [DirtyTitleWindowController.vb](./VB/WinSolution.Module/DirtyTitleWindowController.vb))**
+<!-- default file list end -->
 # How to show an asterisk in the window title when an object in a View is modified
 
 
